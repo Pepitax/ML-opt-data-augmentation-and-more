@@ -8,7 +8,12 @@ The applied for our exploration is classification of the cifar10 dataset.
 
 # 📁 **Organization of Files**
 
-### The main file containing all plots and results is: **`run.ipynb`**
+> The main file containing all plots and results is: **`run.ipynb`**
+<div style="border: 1px solid #ccc; padding: 10px; background-color: #f9f9f9;">
+  <strong>📌 Main File:</strong> <code>run.ipynb</code><br>
+  This notebook contains all plots, training experiments, and results.
+</div>
+
 
 ---
 
