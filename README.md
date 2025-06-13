@@ -39,6 +39,7 @@ Each script trains a CNN with a specific data augmentation technique:
 Use a pretrained CIFAR-100 backbone model:
 - `data_augmentation_flipwCifar100.py`: Applies flipping and initializes convolutional weights from the CIFAR-100 model (classifier weights are randomly reinitialized).
 - `project_wCifar100.py`: Baseline script using the CIFAR-100 pretrained backbone, no augmentation.
+- `project_wCifar100.py`: Baseline script using the CIFAR-100 pretrained backbone, no augmentation, with freeze of the convolution parameters (only the classifier parameters are trainable)
 
 ### 🧩 **Base Script**
 - `project_base.py`: The base training script executed over 10 random seeds.  
