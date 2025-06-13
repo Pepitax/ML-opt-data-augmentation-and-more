@@ -8,7 +8,7 @@ The applied for our exploration is classification of the cifar10 dataset.
 
 # 📁 **Organization of Files**
 
-The main file containing all plots and results is: **`run.ipynb`**
+### The main file containing all plots and results is: **`run.ipynb`**
 
 ---
 
