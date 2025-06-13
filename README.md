@@ -13,7 +13,7 @@ The applied for our exploration is classification of the cifar10 dataset.
 
 ---
 
-### 🧪 **Notebook Structure**
+### 📓 **Notebook Structure**
 - **Part 1**: Optimizer performance exploration using various sub-training dataset sizes, along with PCA-based 2D loss landscape visualizations for insight.
 - **Part 2**:
   - Calls `train_model_cifar100.py` to train a CNN backbone on CIFAR-100 for transfer learning.
@@ -27,7 +27,7 @@ The applied for our exploration is classification of the cifar10 dataset.
 - **`run.ipynb`**: The main notebook for running experiments and visualizing results.
 - **`train_model_cifar100.py`**: Trains the backbone CNN model on CIFAR-100, used for transfer learning.
 
-### 🧱 **Data Augmentation Scripts**
+### 🧪🔬  **Data Augmentation Scripts**
 Each script trains a CNN with a specific data augmentation technique:
 - `data_augmentation_flip.py`: Applies horizontal flipping.
 - `data_augmentation_crop.py`: Applies random cropping.
@@ -42,6 +42,6 @@ Use a pretrained CIFAR-100 backbone model:
 - `project_wCifar100.py`: Baseline script using the CIFAR-100 pretrained backbone, no augmentation.
 - `project_wCifar100.py`: Baseline script using the CIFAR-100 pretrained backbone, no augmentation, with freeze of the convolution parameters (only the classifier parameters are trainable)
 
-### 🧩 **Base Script**
+### 🧱 **Base Script**
 - `project_base.py`: The base training script executed over 10 random seeds.  
   **Note**: All other `.py` files are derived from this file with added data augmentation or transfer learning capabilities.
